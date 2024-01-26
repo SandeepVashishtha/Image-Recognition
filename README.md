@@ -28,7 +28,10 @@ Check out the [GitHub repository](https://github.com/SandeepVashishtha/Image-Rec
 2. **Install Dependencies:**
 
     ```bash
-    pip install -r requirements.txt
+    pip install tensorflow
+    ```
+    ```bash
+    pip install opencv
     ```
 
 3. **Run the Real-time Object Recognition:**
