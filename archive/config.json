@@ -1,0 +1,29 @@
+{
+    "module": "keras_cv.src.models.object_detection.yolo_v8.yolo_v8_backbone",
+    "class_name": "YOLOV8Backbone",
+    "config": {
+        "name": "yolov8_backbone",
+        "trainable": true,
+        "include_rescaling": true,
+        "input_shape": [
+            null,
+            null,
+            3
+        ],
+        "stackwise_channels": [
+            128,
+            256,
+            512,
+            512
+        ],
+        "stackwise_depth": [
+            3,
+            6,
+            6,
+            3
+        ],
+        "activation": "swish"
+    },
+    "registered_name": "keras_cv>YOLOV8Backbone",
+    "weights": null
+}
