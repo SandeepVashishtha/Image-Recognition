@@ -28,16 +28,13 @@ Check out the [GitHub repository](https://github.com/SandeepVashishtha/Image-Rec
 2. **Install Dependencies:**
 
     ```bash
-    pip install tensorflow
-    ```
-    ```bash
-    pip install opencv
+    pip install -r requirements.txt
     ```
 
 3. **Run the Real-time Object Recognition:**
 
     ```bash
-    python realtime_object_recognition.py
+    python main.py
     ```
 
    The code will automatically initiate the webcam feed, allowing you to experience real-time object recognition directly.
