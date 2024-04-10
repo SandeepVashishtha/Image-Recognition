@@ -44,8 +44,16 @@ Check out the [GitHub repository](https://github.com/SandeepVashishtha/Image-Rec
 
 ## Dependencies
 
-- TensorFlow
-- OpenCV
+This project requires Python 3.10 or 3.11 and the following Python libraries installed:
+
+- opencv-python==4.5.3.56
+- torch==1.9.0
+- yolov5==5.0.9
+
+You can install these dependencies using the `requirements.txt` file as follows:
+
+```bash
+pip install -r requirements.txt
 
 ## Contributing
 
