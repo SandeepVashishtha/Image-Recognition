@@ -54,6 +54,7 @@ You can install these dependencies using the `requirements.txt` file as follows:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Contributing
 
