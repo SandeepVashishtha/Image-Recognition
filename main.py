@@ -4,7 +4,7 @@ from yolov5.models.experimental import attempt_load
 from yolov5.utils.general import non_max_suppression
 
 # Load YOLOv5 model
-model = attempt_load("yolov5s.pt")
+model = attempt_load("models/yolov5s.pt")
 
 # Set model to evaluation mode
 model.eval()
